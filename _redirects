@@ -1,0 +1,14 @@
+# Redirect for the home page
+/     /index.html   200
+
+# Redirect for the about page
+/instamart    /instamart   200
+
+# Redirect for the contact page
+/contact    /contact.html   200
+
+# Redirect for the blog page
+/blog/*    /blog/index.html   200
+
+# Redirect for all other pages
+/*    /404.html   404
